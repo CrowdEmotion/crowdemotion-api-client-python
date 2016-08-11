@@ -49,7 +49,7 @@ class Timeseries(object):
             'end_index': 'int',
             'step_size': 'int',
             'custom_message': 'str',
-            'data': 'list[int]'
+            'data': 'list[float]'
         }
 
         self.attribute_map = {
@@ -240,7 +240,7 @@ class Timeseries(object):
 
 
         :return: The data of this Timeseries.
-        :rtype: list[int]
+        :rtype: list[float]
         """
         return self._data
 
@@ -251,7 +251,7 @@ class Timeseries(object):
 
 
         :param data: The data of this Timeseries.
-        :type: list[int]
+        :type: list[float]
         """
 
         self._data = data

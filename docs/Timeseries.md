@@ -10,7 +10,7 @@ Name | Type | Description | Notes
 **end_index** | **int** |  | 
 **step_size** | **int** |  | 
 **custom_message** | **str** |  | 
-**data** | **list[int]** |  | 
+**data** | **list[float]** |  | 
 
 [[Back to Model list]](../README.md#documentation-for-models) [[Back to API list]](../README.md#documentation-for-api-endpoints) [[Back to README]](../README.md)
 
